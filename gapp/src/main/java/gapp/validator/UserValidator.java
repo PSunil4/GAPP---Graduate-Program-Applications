@@ -24,18 +24,5 @@ public class UserValidator implements Validator{
     @Override
     public void validate( Object target, Errors errors )
     {
-        /* USED REQUIRED TAG
-            if( !StringUtils.hasText( user.getEmail() ) )
-                errors.rejectValue( "email", "error.email.required" );
-    
-            if( !StringUtils.hasText( user.getPassword() ) )
-                errors.rejectValue( "password", "error.password.required" );
-            
-            if( !StringUtils.hasText( user.getLastname() ) )
-                errors.rejectValue( "lastname", "error.lastname.required" );
-            
-            if( !StringUtils.hasText( user.getFirstname() ) )
-                errors.rejectValue( "firstname", "error.firstname.required" );
-       */
     }
 }
