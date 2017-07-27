@@ -78,21 +78,6 @@ public class ApplicationController {
         os.flush();
         os.close();
         
-        /*
-        System.out.println(getFileDirectory().getAbsolutePath());
-        
-        InputStream in = context.getServletContext().getResourceAsStream("/WEB-INF/files" + "123.txt");
-        
-        FileInputStream in = new FileInputStream( new File(getFileDirectory(), ""));
-        OutputStream out = response.getOutputStream();
-        
-        byte[] buffer = new byte[2048];
-        int byteRead;
-        while( (byteRead = in.read(buffer)) > 0)
-            out.write( buffer, 0, byteRead );
-        
-        in.close();
-            */
         return null;        
     }
    
